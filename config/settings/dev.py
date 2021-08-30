@@ -84,7 +84,6 @@ WSGI_APPLICATION = "config.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-# postgres://uxnaejpf:AGhjbzZkCcEiiDvlfw2gzcxTrijG3T_R@arjuna.db.elephantsql.com/uxnaejpf
 
 
 DATABASES = {
