@@ -33,7 +33,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 SECRET_KEY = env("SECRET_KEY")
 
 
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -49,6 +48,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "monitoring",
 ]
 
 MIDDLEWARE = [
@@ -95,7 +95,6 @@ DATABASES = {
         "NAME": os.environ.get("DB_NAME", "postgres"),
     },
 }
-
 
 
 # Password validation

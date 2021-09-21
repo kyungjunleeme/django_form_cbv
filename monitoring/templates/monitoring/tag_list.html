@@ -1,0 +1,9 @@
+  <form method="get">
+    {{ filter.form.as_p }}
+    <button type="submit">Search</button>
+  </form>
+  <ul>
+  {% for tag in filter.qs %}
+    <li>{{ tag }}</li>
+  {% endfor %}
+  </ul>

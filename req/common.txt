@@ -1,2 +1,4 @@
 django
 environs
+django-filter
+black
